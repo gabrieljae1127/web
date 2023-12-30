@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>choyoungjaeis</title>
+    <br><a href="index.html"><img src="choyoungjaeis.png" width="450px"></a>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/noonnu/fonts/AppleSDGothicNeo.css"> <!-- Apple 산돌고딕 Neo 폰트 CSS 링크 -->
+    <style>
+        @font-face {
+          font-family: 'AppleSDGothicNeo-Regular'; /* 옅은체 폰트 설정 */
+          src: local('AppleSDGothicNeo-Regular'), url('https://cdn.jsdelivr.net/gh/noonnu/fonts/AppleSDGothicNeo-Light.woff') format('woff');
+          font-weight: 400;
+          font-style: normal;
+        }
+    
+        body {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center; 
+          height: 100vh; 
+          margin: 0;
+          flex-direction: column;
+          font-family: 'AppleSDGothicNeo-Regular', sans-serif; /* 옅은체 폰트 적용 */
+          background-color: whitesmoke; /* 배경 색상 설정 */
+        }
+    
+        blockquote {
+          max-width: 600px; 
+          text-align: left;
+        }
+    
+        div {
+          width: 400px;
+          background-color: #780115;
+          color: beige;
+          font-size: 15pt;
+          text-align: left; /* 텍스트 가운데 정렬 추가 */
+          font-weight: 400; /* 옅은체 폰트 굵기 설정 */
+        }
+    
+        blockquote > div {
+          line-height: 1.65; 
+          font-size: 13pt;
+        }
+    
+        a:link,
+        a:visited {
+          color: beige;
+          background-color: transparent;
+          text-decoration: none;
+        }
+    
+        a:hover,
+        a:active {
+          color: rgb(255, 255, 255);
+          background-color: transparent;
+          text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <p style="text-align: center">새로운 방식을 제안해보는 건 어떨까요?</p>
+    <p>
+        <input type="text" style="width: 250px;">
+        <input type="button" value="제안하기" style="background-color: whitesmoke; color: #780115;" onclick="alert('고려해보겠습니다.')">
+    </p>
+</body>
+</html>
